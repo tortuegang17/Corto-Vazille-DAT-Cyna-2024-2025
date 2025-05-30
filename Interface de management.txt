@@ -1,0 +1,6 @@
+Interface de management
+interface Vlan100
+ ip address 10.1.100.11 255.255.255.0
+ no shutdown
+exit
+ip default-gateway 10.1.100.1

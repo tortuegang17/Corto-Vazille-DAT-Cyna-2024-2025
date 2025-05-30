@@ -1,0 +1,15 @@
+ Création des VLANs
+vlan 10
+ name ADMIN
+vlan 20
+ name USERS
+vlan 30
+ name GUEST
+vlan 40
+ name SERVERS
+vlan 50
+ name SECURITE
+vlan 70
+ name DMZ
+vlan 100
+ name MGMT

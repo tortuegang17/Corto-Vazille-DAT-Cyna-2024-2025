@@ -1,0 +1,10 @@
+Accès initial et configuration de base
+enable
+configure terminal
+hostname DIST-GNV-1
+no ip domain-lookup
+enable secret fortipassword
+line console 0
+ login
+ password adminconsole
+exit

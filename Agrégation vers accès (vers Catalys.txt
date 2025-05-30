@@ -1,0 +1,7 @@
+Agrégation vers accès (vers Catalyst 9300)
+interface range TenGigabitEthernet1/0/3 - 6
+ channel-group 20 mode active
+interface Port-channel20
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ description Downlink vers SW9300

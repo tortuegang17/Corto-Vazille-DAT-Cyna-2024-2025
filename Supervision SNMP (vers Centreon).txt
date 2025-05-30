@@ -1,0 +1,4 @@
+Supervision SNMP (vers Centreon)
+snmp-server community centreon RO
+snmp-server location Geneve
+snmp-server contact soc@cyna.local
