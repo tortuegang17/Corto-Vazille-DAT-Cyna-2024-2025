@@ -1,0 +1,18 @@
+Configuration VPC
+feature vpc
+feature lacp
+
+interface port-channel10
+  switchport
+  switchport mode trunk
+  vpc peer-link
+  no shutdown
+
+interface Ethernet1/47
+  channel-group 10 mode active
+interface Ethernet1/48
+  channel-group 10 mode active
+
+vpc domain 10
+  peer-keepalive destination 10.1.100.2 source 10.1.100.1
+  role priority 1

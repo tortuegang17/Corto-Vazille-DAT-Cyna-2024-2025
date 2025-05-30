@@ -1,0 +1,9 @@
+Uplinks Palo Alto
+interface Ethernet1/1
+  description Uplink_Palo_Alto_1
+  switchport
+  switchport mode trunk
+interface Ethernet1/2
+  description Uplink_Palo_Alto_2
+  switchport
+  switchport mode trunk

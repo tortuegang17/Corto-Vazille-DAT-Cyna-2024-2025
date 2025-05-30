@@ -1,0 +1,6 @@
+Configuration de base
+configure terminal
+hostname NEX-GNV-1
+ip domain-name cyna.local
+username admin password strongpass123 role network-admin
+enable secret strongenable123

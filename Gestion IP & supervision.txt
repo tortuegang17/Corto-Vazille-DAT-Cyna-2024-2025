@@ -1,0 +1,8 @@
+Gestion IP & supervision
+interface mgmt0
+  ip address 10.1.100.1/24
+  no shutdown
+exit
+vrf context management
+ip route 0.0.0.0/0 10.1.100.254
+snmp-server community centreon ro

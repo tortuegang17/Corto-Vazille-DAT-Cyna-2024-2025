@@ -1,0 +1,2 @@
+Sauvegarde de la configuration
+copy running-config startup-config

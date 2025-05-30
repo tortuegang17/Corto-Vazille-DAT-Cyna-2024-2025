@@ -1,0 +1,4 @@
+Supervision et logs
+logging host 10.1.110.10
+logging facility local7
+logging level informational
