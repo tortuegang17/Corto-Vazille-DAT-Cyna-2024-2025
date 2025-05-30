@@ -1,0 +1,7 @@
+Sécurité de base
+no cdp run
+service password-encryption
+banner motd ^C
+Accès réservé aux administrateurs du réseau Cyna.
+Connexion non autorisée interdite.
+^C
