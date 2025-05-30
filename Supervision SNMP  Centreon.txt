@@ -1,0 +1,4 @@
+Supervision SNMP / Centreon
+snmp-server community centreon RO
+snmp-server contact soc@cyna.local
+snmp-server location SWGNV5 – Genève

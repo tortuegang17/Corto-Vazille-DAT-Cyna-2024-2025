@@ -1,0 +1,7 @@
+Ports pour AP Wi-Fi (exemple APGNV1)
+interface GigabitEthernet1/0/1
+ description Borne Wi-Fi APGNV1
+ switchport mode access
+ switchport access vlan 180
+ power inline auto
+ spanning-tree portfast
