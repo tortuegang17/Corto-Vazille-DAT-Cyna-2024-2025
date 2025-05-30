@@ -1,0 +1,7 @@
+Configuration des ports utilisateurs
+interface range GigabitEthernet1/0/3 - 48
+ switchport mode access
+ switchport access vlan 20
+ authentication port-control auto
+ dot1x pae authenticator
+ spanning-tree portfast

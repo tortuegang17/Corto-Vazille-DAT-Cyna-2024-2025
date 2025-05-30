@@ -1,0 +1,11 @@
+Accès initial et configuration de base
+enable
+configure terminal
+hostname SWGNV5
+no ip domain-lookup
+enable secret admin@cyna
+line console 0
+ login
+ password cynaaccess
+exit
+
