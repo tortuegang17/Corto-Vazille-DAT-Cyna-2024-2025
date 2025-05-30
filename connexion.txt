@@ -1,0 +1,3 @@
+connexion 
+connect console
+login: admin
